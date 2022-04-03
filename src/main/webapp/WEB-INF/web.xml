@@ -1,0 +1,26 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+<servlet>
+	<servlet-name>LoginRegisterController</servlet-name>
+	<display-name>LoginRegisterController</display-name>
+	<description></description>
+	<servlet-class>com.assignmentplanner.LoginRegisterController</servlet-class>
+</servlet>
+<servlet>
+	<servlet-name>AssignmentController</servlet-name>
+	<display-name>AssignmentController</display-name>
+	<description></description>
+	<servlet-class>com.assignmentplanner.AssignmentController</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>LoginRegisterController</servlet-name>
+	<url-pattern>/LoginRegisterController</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>AssignmentController</servlet-name>
+	<url-pattern>/AssignmentController</url-pattern>
+</servlet-mapping>
+</web-app>

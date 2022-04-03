@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+.pageHeader {
+	background-color: #232023;
+	text-align: center;
+}
+
+@font-face {
+  font-family: abel;
+  src: url("resource/abel-regular.ttf") format("truetype"); ;
+}
+
+body {
+	background-color: #c5c6d0;
+}
+
+body *{
+	font-family:abel,Arial,sans-serif;
+}
+.fontAll{
+	font-family:abel,Arial,sans-serif;
+	font-size:25px;
+}
+
+.loginForm {
+	background-color: #F5F5F5;
+	min-width: 400px;
+	max-width: 25%;
+	position: static;
+	display: block;
+	padding:40px;
+	margin:auto auto auto auto;
+	margin-top: 100px;
+}
+
+button{
+	border: none;
+	color:white;
+	padding: 15px 30px;
+	text-align:center;
+	font-size: 16px;
+	font-weight:bold;
+
+}
+
+.logbutton {
+	background-color:#00758f;
+}
+
+.regbutton {
+	background-color:#1b8222;
+}
+
+#regButton {
+	background-color:#1b8222;
+}
+.center {
+	text-align:center;
+}
+
